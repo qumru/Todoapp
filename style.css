@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Nunito+Sans&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+
+}
+
+#headerr{
+    background-image:url(/imags/bg-desktop-dark.jpg) ;
+    width: 1550px;
+    height: 300px;
+}
+
+
+#header {
+    background-image: url(/imags/bg-desktop-light.jpg);
+    width: 1550px;
+    height: 300px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+    padding-left: 450px;
+    padding-right: 450px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+}
+
+#TODO {
+
+    width: 540px;
+    height: 64px;
+
+}
+
+.input {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.first {
+    color: white;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+
+
+}
+
+#user-list {
+    color: white;
+
+    padding-left: 500px;
+    padding-right: 500px;
+    margin-top: 24px;
+
+}
+
+.delete {
+    padding: 0px 500px;
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    color: #9495A5;
+    justify-content: space-between;
+}
+
+.delete a {
+    text-decoration: none;
+    outline: none;
+    color: #9495A5;
+}
+
+.bodyy{
+background-color: black;
+}
+
+
+
